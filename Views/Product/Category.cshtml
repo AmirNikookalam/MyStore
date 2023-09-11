@@ -1,0 +1,10 @@
+﻿@model List<YourNamespace.Category>
+
+<h2>Product Categories</h2>
+
+<ul>
+    @foreach (var category in Model)
+    {
+        <li>@category.Name</li>
+    }
+</ul>
